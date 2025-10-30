@@ -1,5 +1,35 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.counter {
+  background-color: grey;
+  color: white;
+  font-size: 40px;
+  width: 40%;
+  border: 1px solid white;
+  text-align: center;
+}
+
+.inc{
+  color: white;
+  background-color: green;
+}
+.dec{
+  color: white;
+  background-color: red;
+  
+}
+
+.btnContainter{
+  margin: 20px;
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
 }
 
 .App-logo {
